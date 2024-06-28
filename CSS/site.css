@@ -1,0 +1,377 @@
+body {
+    background-image: linear-gradient(to bottom right, violet, pink);
+    width: 100%;
+    height: 1px;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+.row{
+    margin: 0;
+}
+
+.container {
+    padding: 70px;
+}
+
+p, li {
+    color: white;
+    font-size: 14px;
+}
+
+header, .navbar {
+    background-color: rgba(48, 48, 48, 0.719);
+    opacity: 1.0;
+    padding-right: 20px;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo {
+    width: 100px;
+    opacity: 1.0;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a {
+    color:white;
+    opacity: 1.0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem ,8rem;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: white;
+}
+
+.main-btn {
+    background-color: rgb(255, 0, 221);
+    /*background-image: linear-gradient(to bottom right, blue, violet);*/
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 1s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: yellow;
+}
+
+.carousel-indicators .active {
+    background-color: aqua;
+}
+
+#about-area {
+    background-color: black;
+}
+
+.main-title {
+    color: white;
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: pink;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: aqua;
+    margin-right: 15px;
+}
+
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: 1s;
+}
+
+.service-box i {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(68, 68, 68);
+}
+
+.service-box h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: aqua;
+}
+
+.circle-box div {
+    padding: 0 20px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#data-area p {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+#apply-area {
+    height: 500px;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#local-img {
+    background-image: url('../img/tay4.jpg');
+    background-size: cover;
+    margin-top: 0.3%;
+    margin-bottom: 0.3%;
+}
+
+#pattern-img h4, #pattern-img p {
+    color: white;
+}
+
+#pattern-img h4 {
+    margin-top: 8%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p {
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: transparent;
+    border-color: white;
+}
+
+#apply-btn:hover {
+    border-color: aqua;
+    background-color: aqua;
+}
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portifolio-area .filter-btn {
+    color: #000;
+    border: white;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portifolio-area .filter-btn.active, #portifolio-area .filter-btn:hover {
+    color: white;
+    background-color: aqua;
+    border-color: aqua;
+}
+
+#news-area {
+    text-align: center;
+    background-color: black;
+}
+
+#news-area p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid pink;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid pink;
+    background-color: pink;
+    color: black;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -130px;
+    position: absolute;
+    transition: .5s;
+}
+
+#news-btn:hover {
+    background-color: black;
+    color: pink;
+}
+
+#contact-area {
+    text-align: center;
+}
+
+.contact-box {
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid aqua;
+}
+
+.contact-box i {
+    color: black;
+    border: solid 1px black;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-box p {
+    font-size: 16px;
+}
+
+.contact-title {
+    font-weight: bold;
+    color: white;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn {
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover {
+    color:white;
+}
+
+#copy-area {
+    background-color: black;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: white;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: aqua;
+}

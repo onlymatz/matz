@@ -1,0 +1,204 @@
+body {
+    background-image: linear-gradient(to top right, blue, purple);
+    width: 100%;
+    height: 1px;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+    text-decoration: none;
+}
+
+nav ul {
+    flex: 1;
+    text-align: right;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 30px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 50%;
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+    border-radius: 35px 35px 0 0;
+    transition: 1s;
+}
+
+#mainSlider .carousel-caption {
+    top: 35%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.main-btn {
+    background-color: rgb(255, 0, 255);
+    /*background-image: linear-gradient(to bottom right, blue, violet);*/
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: 1s;
+}
+
+.main-btn:hover {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border-color: blue;
+}
+
+.carousel-indicators .active {
+    background-color: purple;
+}
+
+.circle-box div {
+    padding: 80px 30px;
+}
+
+.progressbar-text {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#data-area p {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+#copy-area {
+    background-color: black;
+}
+
+#copy-area .container {
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p {
+    margin-bottom: 0;
+    color: gray;
+}
+
+#copy-area .container a {
+    font-weight: bold;
+    color: white;
+}
+
+#copy-area .container a:hover {
+    text-decoration: none;
+    color: purple;
+}
+
+.main-title {
+    color: white;
+    margin: 40px 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after {
+    content: "";
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 15%;
+    position: absolute;
+    top: 90px;
+    left: 42.5%;
+}
+
+.about-title {
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.about-title::after {
+    content: "";
+    border-top: 2px solid rgb(255, 255, 255);
+    width: 46.5%;
+    position: absolute;
+    top: 20px;
+    left: 2.5%;
+}
+
+#about-list {
+    list-style: none;
+    padding-left: 0;
+    color: white;
+}
+
+#about-list li {
+    line-height: 30px;
+}
+
+#about-list i {
+    color: aqua;
+    margin-right: 15px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: white;
+}
